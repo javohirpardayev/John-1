@@ -1,0 +1,16 @@
+.header {
+  padding: 2.7rem 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  &__toggle--btn {
+    display: none;
+    @include responsive(phone) {
+      display: block;
+      background-color: $color-bg;
+    }
+  }
+}
