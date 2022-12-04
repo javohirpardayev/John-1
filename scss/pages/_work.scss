@@ -1,0 +1,137 @@
+.work {
+  margin-top: 9rem;
+
+  h1 {
+    font-family: $heebo-font;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.4rem;
+    line-height: 6rem;
+    color: $color-dark;
+    margin-bottom: 2.5rem;
+    @include responsive(tablet) {
+      //   text-align: center;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 3rem;
+      padding: 0 10rem;
+    }
+    @include responsive(phone) {
+      padding: 0 5rem;
+    }
+  }
+  &__dash {
+    display: flex;
+    @include responsive(tablet) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    @include responsive(phone) {
+      align-items: flex-start;
+    }
+  }
+  &__div-img {
+    max-width: 24.6rem;
+    margin-right: 1.8rem;
+    display: flex;
+    @include responsive(phone) {
+      margin-right: 0;
+    }
+    img {
+      @include responsive(phone) {
+        max-width: 34rem;
+        height: 23rem;
+        display: flex;
+      }
+    }
+  }
+  &__designing {
+    max-width: 41.8rem;
+    @include responsive(tablet) {
+      margin-left: 10rem;
+      @include responsive(m-tablet) {
+        margin-left: 7rem;
+      }
+      @include responsive(phone) {
+        margin-left: 0;
+      }
+    }
+    h2 {
+      font-family: $heebo-font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 3rem;
+      line-height: 4.4rem;
+      color: $color-dark;
+      margin-bottom: 1.6rem;
+
+      @include responsive(phone) {
+        font-family: $heebo-font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.4rem;
+        line-height: 3rem;
+      }
+      p {
+        font-family: $heebo-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        color: $color-dark;
+      }
+    }
+  }
+  &__number {
+    display: flex;
+    align-items: center;
+    gap: 2.6rem;
+    margin-bottom: 1.9rem;
+    span {
+      background: $color-time-1;
+      border-radius: 1.6rem;
+      width: 6.2rem;
+      height: 2.5rem;
+      font-family: $heebo-font;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 1.8rem;
+      color: $color-bg;
+      padding: 0 1rem;
+    }
+    p {
+      font-family: $heebo-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2rem;
+      line-height: 2.9rem;
+      color: #8695a4;
+    }
+  }
+  &__line {
+    max-width: 68.2rem;
+    margin: 4.5rem 0;
+    border: 1px solid #e0e0e0;
+    background-color: #e0e0e0;
+  }
+  &__dash-2 {
+    @include responsive(phone) {
+      display: none;
+    }
+  }
+  &__dash-3 {
+    display: none;
+    @include responsive(phone) {
+      display: block;
+    }
+  }
+  &__line-2 {
+    @include responsive(phone) {
+      display: none;
+    }
+  }
+  &__line-3 {
+    display: none;
+  }
+}

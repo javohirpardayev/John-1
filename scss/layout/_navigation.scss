@@ -6,6 +6,9 @@ nav {
       font-weight: 500;
       color: $color-black;
       line-height: 1.45;
+      &:hover {
+        color: $color-primary;
+      }
     }
   }
   @include responsive(phone) {

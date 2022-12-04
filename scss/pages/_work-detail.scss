@@ -1,0 +1,99 @@
+.mind {
+  margin-top: 7.8rem;
+  &__design {
+    margin-bottom: 5.4rem;
+    h2 {
+      max-width: 50.6rem;
+      font-family: $heebo-font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 3.4rem;
+      line-height: 5rem;
+      color: $color-dark;
+      margin-bottom: 3rem;
+    }
+    p {
+      max-width: 68.1rem;
+      font-family: $heebo-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      color: $color-black;
+      margin-bottom: 4.6rem;
+    }
+  }
+  &__img-d {
+    display: flex;
+    flex-direction: column;
+    img {
+      max-width: 68.1rem;
+    }
+  }
+  &__number {
+    display: flex;
+    gap: 1.7rem;
+    align-items: center;
+    margin-bottom: 2.3rem;
+    span {
+      display: flex;
+      width: 6.2rem;
+      padding: 0.4rem 1rem;
+      background: #ff7c7c;
+      border-radius: 1.6rem;
+      font-family: $heebo-font;
+      font-weight: 900;
+      font-size: 1.8rem;
+      align-items: center;
+      color: $color-bg;
+    }
+    p {
+      font-family: $heebo-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2rem;
+      line-height: 2.9rem;
+      color: $color-dark;
+      margin: 0;
+    }
+  }
+}
+.heading {
+  margin-bottom: 7.8rem;
+  .container {
+    h2 {
+      font-family: $heebo-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 3rem;
+      line-height: 6rem;
+      color: $color-dark;
+    }
+    h3 {
+      font-family: $heebo-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 2.4rem;
+      line-height: 6rem;
+      color: $color-dark;
+    }
+    p {
+      max-width: 67.7rem;
+      font-family: $heebo-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      color: $color-black;
+      margin-bottom: 3rem;
+    }
+  }
+  &__img {
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem;
+    img {
+      max-width: 68.1rem;
+    }
+  }
+}

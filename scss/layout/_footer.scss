@@ -1,0 +1,26 @@
+.footer {
+  padding: 5.1rem 0 5.4rem;
+  margin-top: 5.3rem;
+  @include responsive(tablet) {
+    padding: 4rem 0;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__img-div {
+    display: flex;
+    gap: 3.5rem;
+  }
+  p {
+    margin-top: 2.6rem;
+    font-family: $heebo-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    text-align: center;
+    color: $color-dark;
+  }
+}

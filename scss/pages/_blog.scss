@@ -1,0 +1,66 @@
+.blog {
+  .container {
+    max-width: 68.2rem;
+  }
+  h1 {
+    font-family: $heebo-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.4rem;
+    line-height: 6rem;
+    color: $color-dark;
+    margin: 10.6rem 0 5.5rem;
+  }
+  &__list {
+    h2 {
+      font-family: $heebo-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 3rem;
+      line-height: 4.4rem;
+      color: $color-dark;
+      margin-bottom: 1.6rem;
+    }
+    p {
+      font-family: $heebo-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      color: $color-dark;
+      margin-bottom: 2.9rem;
+    }
+    hr {
+      margin-bottom: 3.2rem;
+    }
+  }
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    gap: 2rem;
+    h6 {
+      font-family: $heebo-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2rem;
+      line-height: 2.9rem;
+      color: $color-dark;
+    }
+    span {
+      width: 0;
+      height: 2.1rem;
+      border: 1px solid $color-black;
+      background-color: $color-black;
+    }
+    p {
+      font-family: $heebo-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2rem;
+      line-height: 2.9rem;
+      color: #8695a4;
+      margin: 0;
+    }
+  }
+}
